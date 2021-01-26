@@ -186,20 +186,21 @@ class _HomePageState extends State<HomePage>
                           builder: (context) =>
                               DetailPage(imagePath: 'assets/modelgrid1.jpeg')));
                     },
-                    child: Hero(
-                      tag: 'assets/modelgrid1.jpeg',
-                      child: Container(
-                        height: 200,
-                        width: (MediaQuery.of(context).size.width - 50) / 2,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(5),
-                          image: DecorationImage(
-                            image: AssetImage('assets/modelgrid1.jpeg'),
-                            fit: BoxFit.cover,
-                          ),
+                    //child: Hero(
+                    //  tag: 'assets/modelgrid1.jpeg',
+                    //child:
+                    child: Container(
+                      height: 200,
+                      width: (MediaQuery.of(context).size.width - 50) / 2,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        image: DecorationImage(
+                          image: AssetImage('assets/modelgrid1.jpeg'),
+                          fit: BoxFit.cover,
                         ),
                       ),
                     ),
+                    // ),
                   ),
                   SizedBox(
                     width: 10,
@@ -212,22 +213,23 @@ class _HomePageState extends State<HomePage>
                               builder: (context) => DetailPage(
                                   imagePath: 'assets/modelgrid2.jpeg')));
                         },
-                        child: Hero(
+                        child:
+                            /*Hero(
                           tag: 'assets/modelgrid2.jpeg',
-                          child: Container(
-                            height: 95,
-                            width:
-                                (MediaQuery.of(context).size.width - 100) / 2,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              image: DecorationImage(
-                                image: AssetImage('assets/modelgrid2.jpeg'),
-                                fit: BoxFit.cover,
-                              ),
+                          child:*/
+                            Container(
+                          height: 95,
+                          width: (MediaQuery.of(context).size.width - 100) / 2,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(5),
+                            image: DecorationImage(
+                              image: AssetImage('assets/modelgrid2.jpeg'),
+                              fit: BoxFit.cover,
                             ),
                           ),
                         ),
                       ),
+                      // ),
                       SizedBox(
                         height: 10,
                       ),
@@ -237,22 +239,23 @@ class _HomePageState extends State<HomePage>
                               builder: (context) => DetailPage(
                                   imagePath: 'assets/modelgrid3.jpeg')));
                         },
-                        child: Hero(
+                        child:
+                            /*Hero(
                           tag: 'assets/modelgrid3.jpeg',
-                          child: Container(
-                            height: 95,
-                            width:
-                                (MediaQuery.of(context).size.width - 100) / 2,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              image: DecorationImage(
-                                image: AssetImage('assets/modelgrid3.jpeg'),
-                                fit: BoxFit.cover,
-                              ),
+                          child:*/
+                            Container(
+                          height: 95,
+                          width: (MediaQuery.of(context).size.width - 100) / 2,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(5),
+                            image: DecorationImage(
+                              image: AssetImage('assets/modelgrid3.jpeg'),
+                              fit: BoxFit.cover,
                             ),
                           ),
                         ),
                       ),
+                      // ),
                     ],
                   ),
                 ],

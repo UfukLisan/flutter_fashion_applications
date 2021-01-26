@@ -115,6 +115,7 @@ class _DetailPageState extends State<DetailPage> {
                                 color: Colors.black),
                           ),
                           FloatingActionButton(
+                              heroTag: 'btn1',
                               child: Icon(Icons.arrow_forward_ios),
                               backgroundColor: Colors.brown,
                               onPressed: () {}),
