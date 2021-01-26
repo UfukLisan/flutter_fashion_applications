@@ -1,3 +1,6 @@
+//      Author: Ufuk Lisan            E-mail=lisanufuk@gmail.com
+//      https://github.com/UfukLisan
+
 import 'package:flutter/material.dart';
 import 'package:flutter_fashion_app/pages/home_page.dart';
 

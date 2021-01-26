@@ -1,4 +1,6 @@
-import 'package:flutter/cupertino.dart';
+//      Author: Ufuk Lisan            E-mail=lisanufuk@gmail.com
+//      https://github.com/UfukLisan
+
 import 'package:flutter/material.dart';
 
 import 'detail_page.dart';
